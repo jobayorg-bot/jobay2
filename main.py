@@ -59,4 +59,10 @@ async def forward_message(message: Message):
 async def main():
     # شروع به دریافت پیام‌ها
     await dp.start_polling(bot, skip_updates=True)
+async def main():
+    await dp.start_polling(bot, skip_updates=True)
+
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())
 #code by jobay v2.1
