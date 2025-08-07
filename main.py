@@ -1,4 +1,3 @@
-#code by jobay
 import logging
 import os
 from aiogram import Bot, Dispatcher, types, executor
